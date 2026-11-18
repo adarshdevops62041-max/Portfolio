@@ -1,0 +1,131 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { siteConfig } from "@/config/portfolio";
+import GistContent from "@/components/GistContent";
+
+export default function Hero({ initialBlogOpen = false }) {
+  const [blogOpen, setBlogOpen] = useState(initialBlogOpen);
+  const router = useRouter();
+  const progressRef = useRef(null);
+
+  const onBodyScroll = useCallback((e) => {
+    const el = e.currentTarget;
+    const max = el.scrollHeight - el.clientHeight;
+    const pct = max > 0 ? (el.scrollTop / max) * 100 : 0;
+    if (progressRef.current) progressRef.current.style.width = `${pct}%`;
+  }, []);
+
+  const closeBlog = () => {
+    setBlogOpen(false);
+    if (initialBlogOpen) router.replace("/");
+  };
+
+  // Close on Escape + lock body scroll while the modal is open
+  useEffect(() => {
+    if (!blogOpen) return;
+    const onKey = (e) => {
+      if (e.key === "Escape") closeBlog();
+    };
+    document.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [blogOpen]);
+
+  return (
+    <section id="home" className="hero">
+      <div className="heroMain">
+        <div className="heroAvatar">
+          <Image
+            src="/adarsh-profile.png"
+            alt={siteConfig.name}
+            className="heroAvatarPhoto"
+            width={150}
+            height={150}
+            priority
+          />
+          <Image
+            src="/adarsh-profile-light.png"
+            alt=""
+            aria-hidden="true"
+            className="heroAvatarLight"
+            width={150}
+            height={150}
+            priority
+          />
+        </div>
+        <div className="heroText">
+          <h1 className="heroName">Hey, I&apos;m {siteConfig.name.split(" ")[0]}</h1>
+          <p className="heroTagline">{siteConfig.tagline}</p>
+        </div>
+      </div>
+      <div className="heroActions">
+        <button
+          type="button"
+          aria-label="Blog"
+          title="Blog"
+          className="heroResume"
+          onClick={() => setBlogOpen(true)}
+        >
+          <i className="fas fa-blog" style={{ fontSize: "1.25rem" }}></i>
+        </button>
+        <Link
+          href="/articles"
+          aria-label="Articles"
+          title="Articles"
+          className="heroResume"
+        >
+          <i className="fas fa-book-open" style={{ fontSize: "1.25rem" }} aria-hidden="true"></i>
+        </Link>
+        {siteConfig.resumeLink && (
+          <a
+            href={siteConfig.resumeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View Resume"
+            title="Resume"
+            className="heroResume"
+          >
+            <i className="fas fa-file-alt" style={{ fontSize: "1.25rem" }}></i>
+          </a>
+        )}
+      </div>
+
+      {blogOpen && (
+        <div
+          className="blogModalOverlay"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Blog"
+          onClick={(e) => {
+            if (e.target === e.currentTarget) closeBlog();
+          }}
+        >
+          <div className="blogModal">
+            <div className="blogProgressTrack" aria-hidden="true">
+              <div className="blogProgressBar" ref={progressRef}></div>
+            </div>
+            <button
+              type="button"
+              aria-label="Close"
+              title="Close"
+              className="blogModalClose"
+              onClick={closeBlog}
+            >
+              <i className="fas fa-times"></i>
+            </button>
+            <div className="blogModalBody" onScroll={onBodyScroll}>
+              <GistContent />
+            </div>
+          </div>
+        </div>
+      )}
+    </section>
+  );
+}

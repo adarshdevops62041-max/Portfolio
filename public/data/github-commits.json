@@ -1,0 +1,875 @@
+{
+  "metric": "repository-commits",
+  "years": [
+    {
+      "year": 2025,
+      "commits": 76,
+      "publicCommits": 76,
+      "privateCommits": 0,
+      "daily": [
+        {
+          "date": "2025-08-27",
+          "commits": 3,
+          "publicCommits": 3,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-09-09",
+          "commits": 6,
+          "publicCommits": 6,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-10-02",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-10-22",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-10-23",
+          "commits": 15,
+          "publicCommits": 15,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-10-24",
+          "commits": 3,
+          "publicCommits": 3,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-10-26",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-11-02",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-11-04",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-11-07",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-11-09",
+          "commits": 12,
+          "publicCommits": 12,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-11-26",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-11-27",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-11-29",
+          "commits": 6,
+          "publicCommits": 6,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-12-08",
+          "commits": 8,
+          "publicCommits": 8,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-12-09",
+          "commits": 6,
+          "publicCommits": 6,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-12-13",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2025-12-31",
+          "commits": 6,
+          "publicCommits": 6,
+          "privateCommits": 0
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "commits": 603,
+      "publicCommits": 514,
+      "privateCommits": 89,
+      "daily": [
+        {
+          "date": "2026-01-01",
+          "commits": 9,
+          "publicCommits": 9,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-01-11",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-03-03",
+          "commits": 17,
+          "publicCommits": 17,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-03-04",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-03-06",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-03-20",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-03-21",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-03-23",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-03-25",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-03-27",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-03-28",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-03-29",
+          "commits": 8,
+          "publicCommits": 8,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-03-31",
+          "commits": 24,
+          "publicCommits": 24,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-04-01",
+          "commits": 20,
+          "publicCommits": 20,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-04-11",
+          "commits": 16,
+          "publicCommits": 16,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-04-14",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-04-20",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-04-21",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-04-22",
+          "commits": 3,
+          "publicCommits": 3,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-05-16",
+          "commits": 4,
+          "publicCommits": 4,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-05-17",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-07",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-12",
+          "commits": 5,
+          "publicCommits": 5,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-13",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-15",
+          "commits": 5,
+          "publicCommits": 5,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-16",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-17",
+          "commits": 14,
+          "publicCommits": 14,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-18",
+          "commits": 5,
+          "publicCommits": 5,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-19",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-20",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-22",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-23",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-25",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-26",
+          "commits": 3,
+          "publicCommits": 3,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-27",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-28",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-29",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-06-30",
+          "commits": 3,
+          "publicCommits": 3,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-07-01",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-07-04",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-07-05",
+          "commits": 4,
+          "publicCommits": 4,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-07-06",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-07-07",
+          "commits": 3,
+          "publicCommits": 3,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-07-08",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-07-10",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-07-12",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-07-16",
+          "commits": 3,
+          "publicCommits": 3,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-07-17",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-08-04",
+          "commits": 1,
+          "publicCommits": 0,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-08-06",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-08-08",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-08-09",
+          "commits": 1,
+          "publicCommits": 0,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-08-12",
+          "commits": 1,
+          "publicCommits": 0,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-08-14",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-08-21",
+          "commits": 1,
+          "publicCommits": 0,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-08-23",
+          "commits": 1,
+          "publicCommits": 0,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-08-26",
+          "commits": 2,
+          "publicCommits": 0,
+          "privateCommits": 2
+        },
+        {
+          "date": "2026-08-28",
+          "commits": 1,
+          "publicCommits": 0,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-08-29",
+          "commits": 1,
+          "publicCommits": 0,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-09-01",
+          "commits": 7,
+          "publicCommits": 3,
+          "privateCommits": 4
+        },
+        {
+          "date": "2026-09-02",
+          "commits": 1,
+          "publicCommits": 0,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-09-03",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-09-04",
+          "commits": 1,
+          "publicCommits": 0,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-09-06",
+          "commits": 7,
+          "publicCommits": 7,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-09-07",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-09-08",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-09-15",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-09-16",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-09-20",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-09-21",
+          "commits": 12,
+          "publicCommits": 12,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-09-22",
+          "commits": 9,
+          "publicCommits": 0,
+          "privateCommits": 9
+        },
+        {
+          "date": "2026-09-23",
+          "commits": 33,
+          "publicCommits": 5,
+          "privateCommits": 28
+        },
+        {
+          "date": "2026-09-24",
+          "commits": 3,
+          "publicCommits": 1,
+          "privateCommits": 2
+        },
+        {
+          "date": "2026-09-25",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-09-26",
+          "commits": 5,
+          "publicCommits": 5,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-09-27",
+          "commits": 4,
+          "publicCommits": 3,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-09-28",
+          "commits": 1,
+          "publicCommits": 0,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-09-29",
+          "commits": 2,
+          "publicCommits": 1,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-09-30",
+          "commits": 2,
+          "publicCommits": 1,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-10-01",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-02",
+          "commits": 8,
+          "publicCommits": 7,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-10-03",
+          "commits": 16,
+          "publicCommits": 15,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-10-04",
+          "commits": 13,
+          "publicCommits": 9,
+          "privateCommits": 4
+        },
+        {
+          "date": "2026-10-05",
+          "commits": 9,
+          "publicCommits": 1,
+          "privateCommits": 8
+        },
+        {
+          "date": "2026-10-06",
+          "commits": 4,
+          "publicCommits": 2,
+          "privateCommits": 2
+        },
+        {
+          "date": "2026-10-07",
+          "commits": 4,
+          "publicCommits": 1,
+          "privateCommits": 3
+        },
+        {
+          "date": "2026-10-08",
+          "commits": 3,
+          "publicCommits": 2,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-10-09",
+          "commits": 2,
+          "publicCommits": 0,
+          "privateCommits": 2
+        },
+        {
+          "date": "2026-10-10",
+          "commits": 25,
+          "publicCommits": 22,
+          "privateCommits": 3
+        },
+        {
+          "date": "2026-10-11",
+          "commits": 16,
+          "publicCommits": 15,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-10-12",
+          "commits": 6,
+          "publicCommits": 5,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-10-13",
+          "commits": 9,
+          "publicCommits": 8,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-10-14",
+          "commits": 5,
+          "publicCommits": 4,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-10-15",
+          "commits": 9,
+          "publicCommits": 8,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-10-16",
+          "commits": 17,
+          "publicCommits": 16,
+          "privateCommits": 1
+        },
+        {
+          "date": "2026-10-18",
+          "commits": 7,
+          "publicCommits": 7,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-19",
+          "commits": 17,
+          "publicCommits": 17,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-20",
+          "commits": 9,
+          "publicCommits": 9,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-21",
+          "commits": 10,
+          "publicCommits": 10,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-22",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-23",
+          "commits": 6,
+          "publicCommits": 6,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-24",
+          "commits": 12,
+          "publicCommits": 12,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-25",
+          "commits": 7,
+          "publicCommits": 7,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-26",
+          "commits": 12,
+          "publicCommits": 12,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-27",
+          "commits": 6,
+          "publicCommits": 6,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-28",
+          "commits": 7,
+          "publicCommits": 7,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-29",
+          "commits": 14,
+          "publicCommits": 14,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-10-30",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-01",
+          "commits": 5,
+          "publicCommits": 5,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-02",
+          "commits": 5,
+          "publicCommits": 5,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-03",
+          "commits": 4,
+          "publicCommits": 4,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-04",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-05",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-06",
+          "commits": 11,
+          "publicCommits": 11,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-07",
+          "commits": 9,
+          "publicCommits": 9,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-08",
+          "commits": 2,
+          "publicCommits": 2,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-09",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-10",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-11",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-12",
+          "commits": 5,
+          "publicCommits": 5,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-13",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-14",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-15",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        },
+        {
+          "date": "2026-11-17",
+          "commits": 1,
+          "publicCommits": 1,
+          "privateCommits": 0
+        }
+      ]
+    }
+  ],
+  "total": 679,
+  "updatedAt": "2026-11-17T11:51:00.325Z"
+}

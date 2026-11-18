@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 600" role="img" aria-labelledby="http-title http-desc">
+  <title id="http-title">How packet loss affects HTTP/1.1, HTTP/2, and HTTP/3</title>
+  <desc id="http-desc">HTTP/1.1 clients commonly use separate TCP connections for concurrent requests. HTTP/2 interleaves streams on one TCP connection, so lost TCP bytes can delay later bytes on every stream. HTTP/3 uses independent QUIC streams, so loss on one stream need not block delivery on another, though streams still share congestion control.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f8fafc}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}.title{fill:#0f172a;font:700 27px system-ui,sans-serif}.heading{fill:#0f172a;font:700 20px system-ui,sans-serif}.body{fill:#475569;font:15px system-ui,sans-serif}.small{fill:#64748b;font:14px system-ui,sans-serif}.lane{fill:#f1f5f9;stroke:#cbd5e1;stroke-width:1.5}.blue{fill:#dbeafe;stroke:#60a5fa;stroke-width:1.5}.green{fill:#dcfce7;stroke:#4ade80;stroke-width:1.5}.amber{fill:#fef3c7;stroke:#f59e0b;stroke-width:1.5}.red{fill:#fee2e2;stroke:#f87171;stroke-width:1.5}.label{fill:#334155;font:600 15px system-ui,sans-serif}.warn{fill:#b91c1c;font:700 14px system-ui,sans-serif}.good{fill:#15803d;font:700 14px system-ui,sans-serif}.muted{stroke:#94a3b8;stroke-width:2;stroke-dasharray:6 5}
+    </style>
+  </defs>
+  <rect class="bg" width="1120" height="600" rx="24"/>
+  <text class="title" x="40" y="52">Multiplexing changes where a lost packet causes a wait</text>
+  <text class="body" x="40" y="82">Same idea: fetch two resources. The difference is how their bytes share connections and transport streams.</text>
+
+  <rect class="panel" x="36" y="112" width="330" height="414" rx="18"/>
+  <text class="heading" x="60" y="153">HTTP/1.1 · TCP</text>
+  <text class="small" x="60" y="179">Concurrency commonly uses separate connections.</text>
+  <text class="label" x="60" y="222">Connection A</text>
+  <rect class="blue" x="60" y="238" width="270" height="48" rx="10"/><text class="label" x="195" y="268" text-anchor="middle">Request A → Response A</text>
+  <text class="label" x="60" y="324">Connection B</text>
+  <rect class="green" x="60" y="340" width="270" height="48" rx="10"/><text class="label" x="195" y="370" text-anchor="middle">Request B → Response B</text>
+  <path class="muted" d="M60 407H330"/>
+  <text class="body" x="60" y="438">Loss on A does not stop bytes</text>
+  <text class="body" x="60" y="462">on independent connection B.</text>
+  <text class="small" x="60" y="495">Pipelined responses on one connection</text>
+  <text class="small" x="60" y="515">must remain in request order.</text>
+
+  <rect class="panel" x="395" y="112" width="330" height="414" rx="18"/>
+  <text class="heading" x="419" y="153">HTTP/2 · TCP</text>
+  <text class="small" x="419" y="179">Streams interleave on one TCP connection.</text>
+  <rect class="lane" x="419" y="202" width="282" height="88" rx="12"/>
+  <text class="label" x="435" y="228">Stream A</text>
+  <rect class="blue" x="435" y="240" width="96" height="34" rx="7"/><text class="small" x="483" y="262" text-anchor="middle">A bytes</text>
+  <rect class="red" x="538" y="240" width="54" height="34" rx="7"/><text class="warn" x="565" y="262" text-anchor="middle">lost</text>
+  <rect class="blue" x="599" y="240" width="82" height="34" rx="7"/><text class="small" x="640" y="262" text-anchor="middle">A more</text>
+  <rect class="lane" x="419" y="304" width="282" height="88" rx="12"/>
+  <text class="label" x="435" y="330">Stream B</text>
+  <rect class="green" x="435" y="342" width="96" height="34" rx="7"/><text class="small" x="483" y="364" text-anchor="middle">B bytes</text>
+  <rect class="green" x="538" y="342" width="143" height="34" rx="7"/><text class="small" x="609" y="364" text-anchor="middle">B more bytes</text>
+  <rect class="red" x="419" y="410" width="282" height="88" rx="12"/>
+  <text class="warn" x="435" y="440">TCP waits for missing bytes.</text>
+  <text class="body" x="435" y="466">Later bytes—including stream B—</text>
+  <text class="body" x="435" y="488">cannot be delivered to HTTP/2 yet.</text>
+
+  <rect class="panel" x="754" y="112" width="330" height="414" rx="18"/>
+  <text class="heading" x="778" y="153">HTTP/3 · QUIC</text>
+  <text class="small" x="778" y="179">Each stream has independent delivery.</text>
+  <rect class="lane" x="778" y="202" width="282" height="88" rx="12"/>
+  <text class="label" x="794" y="228">Stream A</text>
+  <rect class="blue" x="794" y="240" width="96" height="34" rx="7"/><text class="small" x="842" y="262" text-anchor="middle">A bytes</text>
+  <rect class="red" x="897" y="240" width="54" height="34" rx="7"/><text class="warn" x="924" y="262" text-anchor="middle">lost</text>
+  <rect class="blue" x="958" y="240" width="82" height="34" rx="7"/><text class="small" x="999" y="262" text-anchor="middle">A waits</text>
+  <rect class="lane" x="778" y="304" width="282" height="88" rx="12"/>
+  <text class="label" x="794" y="330">Stream B</text>
+  <rect class="green" x="794" y="342" width="96" height="34" rx="7"/><text class="small" x="842" y="364" text-anchor="middle">B bytes</text>
+  <rect class="green" x="897" y="342" width="143" height="34" rx="7"/><text class="small" x="968" y="364" text-anchor="middle">B continues</text>
+  <rect class="green" x="778" y="410" width="282" height="88" rx="12"/>
+  <text class="good" x="794" y="440">Stream B can still progress.</text>
+  <text class="body" x="794" y="466">The streams still share connection</text>
+  <text class="body" x="794" y="488">congestion control and path capacity.</text>
+
+  <text class="small" x="40" y="564">HTTP/3 reduces cross-stream blocking from transport loss; it does not eliminate congestion, retransmission, or all causes of latency.</text>
+</svg>
